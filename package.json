@@ -1,0 +1,19 @@
+{
+  "name": "Front-end_Jexperts",
+  "version": "1.0.0",
+  "description": "Jexperts teste front end - Ivan Espinola G.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/i-espinola/jexperts.git"
+  },
+  "author": "Ivan Espinola - <ivan.espinola@live.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/i-espinola/jexperts/issues"
+  },
+  "homepage": "https://github.com/i-espinola/jexperts#readme"
+}
