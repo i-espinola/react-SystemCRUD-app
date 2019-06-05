@@ -1,0 +1,24 @@
+{
+  "users": [
+    {
+      "id": 2,
+      "name": "Maria Julia da Silva",
+      "email": "mjds@empresa.com"
+    },
+    {
+      "name": "Ivan Espínola Gomes",
+      "email": "ivanspinola@gmail.com",
+      "id": 3
+    },
+    {
+      "name": "Ivan Espínola G",
+      "email": "i.espinola@grad.ufsc.br",
+      "id": 4
+    },
+    {
+      "name": "Ivan Espínola Gomes",
+      "email": "ivan_s",
+      "id": 5
+    }
+  ]
+}

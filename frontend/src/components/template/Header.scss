@@ -1,0 +1,26 @@
+header {
+
+    &.header {
+        background: var(--bg-grad);
+        padding: 0px 15px;
+        text-align: center;
+        color: #fff;
+        overflow: hidden;
+        white-space: nowrap;
+        word-wrap: break-word;
+        // box-shadow: ;
+        
+        .head-card {
+            border: 1px solid #fff;
+            border-bottom: 1px solid transparent;
+            border-radius: var(--border-radius) var(--border-radius) 0 0;
+
+            h1 {
+                font-size: 1.8em;
+            }
+            p {
+                color: #fff;
+            }
+        }
+    }
+}
