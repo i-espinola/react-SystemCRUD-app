@@ -1,26 +1,21 @@
-import './Nav.scss';
+import '../../assets/scss/Nav.scss';
 import React from 'react';
 import { Link } from 'react-router-dom';
 
 
-// const initialState = {
-//     current: {
-//         home: true,
-//         users: false
-//     }
-// }
-
+const initialState = {
+    home: false,
+    users: false
+}
 
 export default class UserCrud extends React.Component
 {
-    state = { 
-        home: false,
-        users: false
-     }
+    state = {
+        ...initialState
+    }
     
     toggleNav = (event) =>
     {
-        debugger
         if (event.target.className !== "active")
         { 
             this.setState({
