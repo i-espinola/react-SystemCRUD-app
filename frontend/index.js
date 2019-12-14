@@ -17,4 +17,6 @@ app.get(setup.request, (request, response) =>
 
 // Start Serve
 const server = http.createServer(app)
-server.listen(setup.port, () => console.log(`${ setup.banner } in port ${ setup.port }`) )
+server.listen(setup.port, () =>
+    console.log(`${ setup.banner } in port ${ setup.port }`)
+)

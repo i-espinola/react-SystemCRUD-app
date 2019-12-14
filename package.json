@@ -1,7 +1,7 @@
 {
   "name": "react-crud-system",
   "version": "1.0.0",
-  "description": "System CRUD react and json-server",
+  "description": "System CRUD with React and Json-Server",
   "private": false,
   "repository": {
     "type": "git",
@@ -15,8 +15,8 @@
   "homepage": ".",
   "scripts": {
     "clean": "rm -rf build package-lock.json npm-debug.log",
-    "back": "json-server --watch json-server/db.json --port 3030",
-    "start": "npm run clean && npm run build && node server/index.js",
+    "back": "json-server --watch backend/db.json --port 3030",
+    "start": "npm run clean && npm run build && node frontend/index.js",
     "dev": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
