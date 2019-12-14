@@ -1,4 +1,5 @@
-# React SystemCRUD.app 
+# React SystemCRUD.app
+
 ## Instalação
 
 **NOTA:** Para executar qualquer um dos comandos abaixo, é imprescindível ter o gerenciador de dependência NPM instalado globalmente em seu computador, e nagevar para dentro do diretório root da aplicação para que todos os comandos possam ser executados com sucesso.
@@ -13,7 +14,7 @@ Para fazer a instalação de todas as dependências da aplicação, execute a se
 
     npm audit fix && npm audit fix --force
 
-### Modo desenvolvimento
+### Modo desenvolvimento - Frontend
 
 Os arquivos do código fonte da aplicação estão contidos dentro do diretório `./src`.
 Após concluir a instalação de todas as dependências da aplicação, é possível executar o comando de desenvolvimento no terminal.
@@ -32,6 +33,14 @@ Este comando cria os arquivos de produção dentro do diretório ./build e inici
     npm run start
 
 **NOTA**: É necessário executar o servidor JSON em paralelo com o comando `npm run start`, desta forma, execute também o servidor backend com o comando `npm run back`. Então o servidor backend sera executado na porta 3030.
+
+### Backend
+
+O JSON-server irá servir o ambiente client-side com os dados persistidos no arquivo `./backend/db.json`. Rode no terminal o seguinte comando para iniciar o server-side(Back-end).
+
+    npm run back
+
+**NOTE**: O JSON-server esta configurado para usar a porta **3030**. Caso preciso alterar a porta do JSON-server, mude a propriedade **scripts** em **back**, Também é necessário alterar o endpoint do arquivo `./src/app/views/admin/index.jsx`.
 
 ### Construção do projeto
 
