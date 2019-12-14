@@ -1,0 +1,20 @@
+{
+  "users": [
+    {
+      "name": "Ivan Espínola Gomes",
+      "phone": "48999796480",
+      "email": "ivan.espinola@live.com",
+      "login": "i-espinola",
+      "password": "aaa",
+      "id": 10
+    },
+    {
+      "name": "Ivaη Espínola G.",
+      "phone": "48999796480",
+      "email": "ivanspinola@gmail.com",
+      "login": "logan",
+      "password": "aaa",
+      "id": 11
+    }
+  ]
+}
