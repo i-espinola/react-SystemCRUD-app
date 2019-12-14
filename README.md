@@ -40,7 +40,7 @@ O JSON-server irá servir o ambiente client-side com os dados persistidos no arq
 
     npm run back
 
-http://localhost:3030/users
+Após executar o comando `npm run back` você pode usar o seu navegador para verificar a lista de usuários cadastrados na base de dados em [http://localhost:3030/users](http://localhost:3030/users).
 
 **NOTE**: O JSON-server esta configurado para usar a porta **3030**. Caso preciso alterar a porta do JSON-server, mude a propriedade **scripts** em **back**, Também é necessário alterar o endpoint do arquivo `./src/app/views/admin/index.jsx`.
 
