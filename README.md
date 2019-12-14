@@ -34,11 +34,13 @@ Este comando cria os arquivos de produção dentro do diretório ./build e inici
 
 **NOTA**: É necessário executar o servidor JSON em paralelo com o comando `npm run start`, desta forma, execute também o servidor backend com o comando `npm run back`. Então o servidor backend sera executado na porta 3030.
 
-### Backend
+### Server-side - Backend
 
 O JSON-server irá servir o ambiente client-side com os dados persistidos no arquivo `./backend/db.json`. Rode no terminal o seguinte comando para iniciar o server-side(Back-end).
 
     npm run back
+
+http://localhost:3030/users
 
 **NOTE**: O JSON-server esta configurado para usar a porta **3030**. Caso preciso alterar a porta do JSON-server, mude a propriedade **scripts** em **back**, Também é necessário alterar o endpoint do arquivo `./src/app/views/admin/index.jsx`.
 
