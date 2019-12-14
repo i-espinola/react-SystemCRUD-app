@@ -20,16 +20,18 @@ Após concluir a instalação de todas as dependências da aplicação, é poss�
 
     npm run dev
 
-**NOTA**: É necessário executar o servidor JSON em paralelo com o comando `npm run dev`, desta forma, abra uma outra aba em seu terminal e execute o servidor backend com o comando `npm run back`. Então o servidor backend sera executado na porta 3030.
-
 Depois de executar o comando acima, abra [http://localhost:3000](http://localhost:3000) para renderizar a aplicação no seu browser preferido.
 A página será recarregada sempre que fizer edições no seu código fonte, você também verá quaisquer eventuais erros no código no seu console e no próprio browser.
+
+**NOTA**: É necessário executar o servidor JSON em paralelo com o comando `npm run dev`, desta forma, abra uma outra aba em seu terminal e execute o servidor backend com o comando `npm run back`. Então o servidor backend sera executado na porta 3030.
 
 ### Modo produção
 
 Este comando cria os arquivos de produção dentro do diretório ./build e inicia um servidor Express para servir a aplicação em questão. Os arquivos de produção são transpilados e minificados para obter uma melhor performance e otimização de trafego de dados ao acessar a aplicação. Para construir a aplicação em modo producão, execute o seguinte comando
 
     npm run start
+
+**NOTA**: É necessário executar o servidor JSON em paralelo com o comando `npm run start`, desta forma, execute também o servidor backend com o comando `npm run back`. Então o servidor backend sera executado na porta 3030.
 
 ### Construção do projeto
 
