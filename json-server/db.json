@@ -2,19 +2,19 @@
   "users": [
     {
       "name": "Ivan Espínola Gomes",
-      "phone": "48999796480",
-      "email": "ivan.espinola@live.com",
+      "phone": "11987882000",
+      "email": "ivanspinola@gmail.com",
       "login": "i-espinola",
-      "password": "aaa",
-      "id": 10
+      "password": "123",
+      "id": 1
     },
     {
-      "name": "Ivaη Espínola G.",
+      "name": "Panda Espínola Gomes Lee",
       "phone": "48999796480",
-      "email": "ivanspinola@gmail.com",
-      "login": "logan",
+      "email": "lica@puma.com",
+      "login": "lica",
       "password": "aaa",
-      "id": 11
+      "id": 2
     }
   ]
 }
