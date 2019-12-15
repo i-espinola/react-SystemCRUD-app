@@ -1,16 +1,16 @@
 {
-  "name": "system-crud-react",
+  "name": "react-system-crud-app",
   "version": "1.0.0",
   "description": "System CRUD with React and Json-Server",
   "private": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/i-espinola/system-crud-react.git"
+    "url": "git+https://github.com/i-espinola/react-system-crud-app.git"
   },
   "bugs": {
-    "url": "https://github.com/i-espinola/system-crud-react/issues"
+    "url": "https://github.com/i-espinola/react-system-crud-app/issues"
   },
-  "readme": "https://github.com/i-espinola/system-crud-react#readme",
+  "readme": "https://github.com/i-espinola/react-system-crud-app#readme",
   "license": "MIT",
   "homepage": ".",
   "scripts": {
